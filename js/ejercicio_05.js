@@ -16,9 +16,50 @@ const num = parseInt(prompt('Ingrese los numeros de DNI que desea consultar o pr
 if(isNaN(num)){
     alert('Usted no ingreso un numero')
 }else if (num %23 == 1){
-}
+    alert(`La letra que le corresponde es la T`);
+}else if(num %23 == 2){
+    alert(`La letra que le corresponde es la R`);
+}else if(num %23 == 3){
+    alert(`La letra que le corresponde es la W`);
+}else if(num %23 == 4){
+    alert(`La letra que le corresponde es la A`);
+}else if(num %23 == 5){
+    alert(`La letra que le corresponde es la G`);
+}else if(num %23 == 6){
+    alert(`La letra que le corresponde es la M`);
+}else if(num %23 == 7){
+    alert(`La letra que le corresponde es la Y`);
+}else if(num %23 == 8){
+    alert(`La letra que le corresponde es la F`);
+}else if(num %23 == 9){
+    alert(`La letra que le corresponde es la P`);
+}else if(num %23 == 10){
+    alert(`La letra que le corresponde es la D`);
+}else if(num %23 == 11){
+    alert(`La letra que le corresponde es la X`);
+}else if(num %23 == 12){
+    alert(`La letra que le corresponde es la B`);
+}else if(num %23 == 13){
+    alert(`La letra que le corresponde es la N`);
+}else if(num %23 == 14){
+    alert(`La letra que le corresponde es la J`);
+}else if(num %23 == 15){
+    alert(`La letra que le corresponde es la Z`);
+}else if(num %23 == 16){
+    alert(`La letra que le corresponde es la S`);
+}else if(num %23 == 17){
+    alert(`La letra que le corresponde es la Q`);
+}else if(num %23 == 18){
+    alert(`La letra que le corresponde es la V`);
+}else if(num %23 == 19){
+    alert(`La letra que le corresponde es la H`);
+}else if(num %23 == 20){
+    alert(`La letra que le corresponde es la L`);
+}else if(num %23 == 21){
+    alert(`La letra que le corresponde es la C`);
+}else if(num %23 == 22){
+    alert(`La letra que le corresponde es la K`);
+}else if(num %23 == 23)
+    alert(`La letra que le corresponde es la E`);
 
-letrasDni = letrasDni + num;
-
-
-}while()
+}while (confirm('¿Desea ingresar otra cadena de texto?'));
