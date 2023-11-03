@@ -5,7 +5,6 @@ Por ejemplo, si tecleo “hola qué tal”, deberá salir “h-o-l-a- -q-u-e- -t
 let texto = prompt('Ingrese el texto que desee');
 
 for(let i = 0; i < texto.length; i++){
-    texto.charAt(i);
     if(i == texto.length -1){
         document.write(texto.charAt(i));
     }else{
